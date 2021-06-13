@@ -8,7 +8,7 @@ I created the website with a Mobile-First Approach since more people surf the we
 
 ### Mobile Demo of Website
 
-![ui video demo](assets/video/website.mov)
+![ui video demo](assets/video/website.gif)
 
 I used [Netlify](https://netlify.com) to host my website and handle spam for my form submissions.
 
