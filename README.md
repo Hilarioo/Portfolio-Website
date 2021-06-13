@@ -1,16 +1,16 @@
 # Mobile First | Responsive Portfolio Website
 
+[https://hilario.io](https://hilario.io)
+
 Responsive portfolio website created with HTML5, CSS, and Vanilla Javascript.
 
 I created the website with a Mobile-First Approach since more people surf the web on their mobile devices than on desktops. The website dynamically changes, allowing the design and content to resize accordingly.
 
-## [Open Website](https://hilario.io)
-
 ### Mobile Demo of Website
 
-![ui video demo](assets/gif/website.mov)
+![ui video demo](assets/video/website.mov)
 
-I used [Netlify](https://netlify.com) to host my website and handle spam filters for my form submissions.
+I used [Netlify](https://netlify.com) to host my website and handle spam for my form submissions.
 
 ### Feedback
 
