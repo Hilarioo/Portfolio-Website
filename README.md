@@ -6,7 +6,7 @@ Responsive portfolio website created with HTML5, CSS, and Vanilla Javascript.
 
 I created the website with a Mobile-First Approach since more people surf the web on their mobile devices than on desktops. The website dynamically changes, allowing the design and content to resize accordingly.
 
-### Mobile Demo of Website
+### Demo of Website
 
 ![ui video demo](assets/video/website.gif)
 
