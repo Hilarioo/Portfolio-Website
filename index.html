@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/astronaut.ico" />
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/morph-blob.css">
+    <title>Hilario Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Jose</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="uil uil-estate nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="uil uil-user nav-icon"></i> About Me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="uil uil-file-alt nav-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="uil uil-code-branch nav-icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="uil uil-message nav-icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav-close" id="nav-close"></i>
+            </div>
+
+            <div class="nav-btns">
+                <!-- Theme change color -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/hilariooo/" target="_blank" class="home-social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Hilarioo/" target="_blank" class="home-social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://dribbble.com/Hilarioo/" target="_blank" class="home-social-icon">
+                            <i class="uil uil-dribbble"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-img">
+                        <img src="assets/img/astronaut.svg" alt="img" id="home-blob-img">
+                        <div class="home-blob"></div>
+                    </div>
+
+                    <div class="home-data">
+                        <div class="typewriter">
+                            <h1 class="home-title" id="home-title">Hi, I'm Jose</h1>
+                        </div>
+                        <h3 class="home-subtitle">Frontend Developer</h3>
+                        <p class="home-description">I'm currently a student at San Francisco State University pursuing
+                            my Computer Science Degree. I love food and
+                            adrenaline-filled adventures!</p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="uil uil-message button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My Introduction</span>
+            <div class="about-container container grid">
+                <img src="assets/img/selfie.JPG" alt="selfie" class="about-img">
+                <!-- <img src="assets/img/about.jpg" alt="" class="about-img"> -->
+                <div class="about-data">
+                    <p class="about-description">Soon to be a San Francisco State University Graduate with experience
+                        working across the full stack of software
+                        development. Individually built a few projects and collaborated in teams to produce full-fledged
+                        applications. Now, I'm
+                        looking for a role to grow and learn from other experienced team members.</p>
+                    <div class="about-info">
+                        <div>
+                            <span class="about-info-title">04+</span>
+                            <span class="about-info-name">Years <br> Experience</span>
+                        </div>
+                        <div>
+                            <span class="about-info-title">07+</span>
+                            <span class="about-info-name">Completed <br> Projects</span>
+                        </div>
+                        <div>
+                            <span class="about-info-title">05+</span>
+                            <span class="about-info-name">Companies <br> Worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a target="_blank" href="assets/pdf/gonzalez-jose-cv-2021.pdf" class="button button-flex">
+                            Download CV <i class="uil uil-import button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My Technical Level</span>
+
+            <div class="skills-container container grid">
+                <!--==================== SKILLS #1 ====================-->
+                <div class="skills-content skills-close">
+                    <div class="skills-header">
+                        <i class="uil uil-brackets-curly skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Frontend Developer</h1>
+                            <span class="skills-subtitle">More than 3 years</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-list grid">
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">AJAX</h3>
+                                <span class="skills-number">50%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-ajax"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Bootstrap</h3>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-bootstrap"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">CSS</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-css"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">DOM Manipulation</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-dom"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">HTML</h3>
+                                <span class="skills-number">95%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-html"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Javacript ES6</h3>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-javascript"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Redux</h3>
+                                <span class="skills-number">55%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-redux"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">React JS</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS #2 ====================-->
+                <div class="skills-content skills-close">
+                    <div class="skills-header">
+                        <i class="uil uil-database skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Backend Developer</h1>
+                            <span class="skills-subtitle">More than 2 years</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-list grid">
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Amazon Web Services</h3>
+                                <span class="skills-number">60%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-aws"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">C++</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-cplus"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Express JS</h3>
+                                <span class="skills-number">55%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-express"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Java</h3>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-java"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Javacript ES6</h3>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-javascript"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">MongoDB</h3>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-mongodb"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">MySQL</h3>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-mysql"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Node JS</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-node"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Postman</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-postman"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">REST API</h3>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-api"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS #3 ====================-->
+                <div class="skills-content skills-close">
+                    <div class="skills-header">
+                        <i class="uil uil-swatchbook skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Design</h1>
+                            <span class="skills-subtitle">More than 4 years</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-list grid">
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Adobe XD</h3>
+                                <span class="skills-number">85%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-xd"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Figma</h3>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-figma"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Illustrator</h3>
+                                <span class="skills-number">75%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-illustrator"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Lightroom</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-lightroom"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Photoshop</h3>
+                                <span class="skills-number">85%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-photoshop"></span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-title">
+                                <h3 class="skills-name">Sketch</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-sketch"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section-title">Qualifications</h2>
+            <span class="section-subtitle">My Personal Journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-button buton-flex qualification-active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification-icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification-button buton-flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification-icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification-sections">
+                    <!--==================== QUALIFICATION CONTENT #1   ====================-->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!--==================== QUALIFICATION 01   ====================-->
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Computer Science B.S</h3>
+                                <span class="qualification-subtitle">San Francisco State University</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - Current
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 02   ====================-->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification-title">Concurrent Enrollment</h3>
+                                <span class="qualification-subtitle">UC Berkeley</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 03   ====================-->
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Mathematics & Physics A.S</h3>
+                                <span class="qualification-subtitle">Los Medanos Community College</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015 - 2018
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== QUALIFICATION CONTENT #2   ====================-->
+                    <div class="qualification-conten
+                        ]]0=t-≥÷6ths " data-content id="work">
+                        <!--==================== QUALIFICATION 01   ====================-->
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Customer Specialist III</h3>
+                                <span class="qualification-subtitle">CarMax</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - Current
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 02   ====================-->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification-title">Computer Science Instructor</h3>
+                                <span class="qualification-subtitle">Coding 4 Kids</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 03   ====================-->
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Digital Marketing Guide</h3>
+                                <span class="qualification-subtitle">Magnified Media</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2018
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 04   ====================-->
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification-title">Student Ambassador & Tutor</h3>
+                                <span class="qualification-subtitle">Los Medanos College</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2016 - 2018
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 05   ====================-->
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Line Cook</h3>
+                                <span class="qualification-subtitle">Black Angus Steakhouse</span>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2014 - 2015
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Porfolio</h2>
+            <span class="section-subtitle">Most recent work</span>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 01====================-->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="assets/video/dino.gif" class="portfolio-img" alt="dino gif" id="soda-chat-gif">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">
+                                Soda Chat
+                            </h3>
+                            <p class="portfolio-description">
+                                Full-stack app which allows group messaging. Created using Javascript, ReactJS, NodeJS,
+                                Express, Java, and MongoDB.
+                            </p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                View
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 02 ====================-->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="assets/video/hatchio-chicken.gif" alt="chicken gif" class="portfolio-img"
+                            id="hatchio-gif">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">
+                                Hatchio Job Search
+                            </h3>
+                            <p class="portfolio-description">
+                                Full-stack app which allows students to create their resume and apply to jobs. It also
+                                allows companies to post jobs and recruit students.
+                                Created using Javascript, ReactJS, Bootstrap, Express, and MySQL for DB.
+                            </p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                View
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 03 ====================-->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="assets/video/photo.gif" alt="photo gif" class="portfolio-img" id="photo-gif">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">
+                                Photo Management
+                            </h3>
+                            <p class="portfolio-description">
+                                Web app which allows users to post, search, and view images. Created using Javascript,
+                                HTML5, CSS NodeJs, Express, and
+                                MySQL
+                            </p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                View
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== ACCOMPLISHMENTS (CERTIFICATES, AWARDS) ====================-->
+        <section class="accomplishments section">
+            <h2 class="section-title">Accomplishments</h2>
+            <span class="section-subtitle">Things I've Done</span>
+
+            <div class="accomplishments-container container grid">
+
+
+                <!-- Accomplishments 01 -->
+                <div class="accomplishments-content">
+                    <div>
+                        <i class="uil uil-arrow accomplishments-icon"></i>
+                        <h3 class="accomplishments-title">Computer Science <br> Club Founder</h3>
+                    </div>
+                    <span class="button button-flex button-small button-link accomplishments-button">
+                        View More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="accomplishments-modal">
+                        <div class="accomplishments-modal-content">
+                            <h4 class="accomplishments-modal-title">Computer Science <br> Club Founder</h4>
+                            <i class="uil uil-times accomplishments-modal-close"></i>
+
+                            <img class="accomplishments-img" id="club-logo" src="assets/img/cs-club-logo.png"
+                                alt="club logo">
+                            <p class="accomplishments-text">Founded the computer science club at Los Medanos Community
+                                College to provide an on-campus space for programming
+                                enthusiasts to gather together, discuss coding, and assist each other with CS
+                                assignments</p>
+
+                            <ul class="accomplishments-modal-accomplishments grid">
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>I held weekly coding challenges during the start of every meeting as a form of
+                                        ice breaker</p>
+                                </li>
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>The club grew to an average of 25+ active members</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accomplishments 02 -->
+                <div class="accomplishments-content">
+                    <div>
+                        <i class="uil uil-trophy accomplishments-icon"></i>
+                        <h3 class="accomplishments-title">1st Place <br> Startup Weekend</h3>
+                    </div>
+                    <span class="button button-flex button-small button-link accomplishments-button">
+                        View More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="accomplishments-modal">
+                        <div class="accomplishments-modal-content">
+                            <h4 class="accomplishments-modal-title">1st Place Startup <br> Weekend</h4>
+                            <i class="uil uil-times accomplishments-modal-close"></i>
+
+                            <img class="accomplishments-img" src="assets/img/oakland-startup-weekend.jpg"
+                                alt="startup weekend logo">
+                            <p class="accomplishments-text">The Kapor Center for Social Impact hosted a 54-hour "Startup
+                                Weekend" event. Prezta, my team won 1st place with the idea
+                                of developing an app to help friends and family lend and borrow money, eliminating the
+                                awkwardness by setting terms in
+                                advance and having the app send reminders.</p>
+
+                            <ul class="accomplishments-modal-accomplishments grid">
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>I developed mockups and a basic UI layout to better explain the startup ideas and
+                                        key points</p>
+                                </li>
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>I was asked to present the idea and share my feedback of the event at the
+                                        LinkedIn office located in San Francisco, CA</p>
+                                </li>
+                            </ul>
+
+                            <div class="accomplishments-socials">
+                                <a href="https://www.eastbaytimes.com/2016/10/27/kapor-hosts-competition-to-boost-latino-tech/"
+                                    target="_blank">
+                                    <i class="uil uil-book-open accomplishments-social"></i>
+                                    <span class="accomplishments-social-text">Article 01</span>
+                                </a>
+                                <a href="https://www.prnewswire.com/news-releases/startup-weekend-oakland-latinx-tech-edition-invites-young-entrepreneurs-to-ideate-solutions-to-uplift-latinx-communities-300350708.html"
+                                    target="_blank">
+                                    <i class="uil uil-book-open accomplishments-social"></i>
+                                    <span class="accomplishments-social-text">Article 02</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accomplishments 03 -->
+                <div class="accomplishments-content">
+                    <div>
+                        <i class="uil uil-lightbulb-alt accomplishments-icon"></i>
+                        <h3 class="accomplishments-title">Adhesive <br> Unity</h3>
+                    </div>
+                    <span class="button button-flex button-small button-link accomplishments-button">
+                        View More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="accomplishments-modal">
+                        <div class="accomplishments-modal-content">
+                            <h4 class="accomplishments-modal-title">Adhesive Unity</h4>
+                            <i class="uil uil-times accomplishments-modal-close"></i>
+
+                            <img class="adhesive-unity-img" src="assets/img/adhesive-unity.svg"
+                                alt="adhesive unity logo">
+                            <p class="accomplishments-text">Adhesive Unity is a small company I created which sold
+                                stickers, and in return, all profits were donated to the
+                                purchaser's non-profit of choice.</p>
+
+                            <ul class="accomplishments-modal-accomplishments grid">
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>I developed and launched a website which handled payment and inventory</p>
+                                </li>
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>
+                                        <tb>Sold 750+ orders of stickers within the first week
+                                    </p>
+                                </li>
+                                <li class="accomplishments-modal-service">
+                                    <i class="uil uil-check-circle accomplishments-icon"></i>
+                                    <p>More than $10,000 was donated to non-profit organizations.</p>
+                                </li>
+                            </ul>
+
+                            <div class="accomplishments-socials">
+                                <a href="https://adhesiveunity.com/" target="_blank">
+                                    <i class="uil uil-link-alt accomplishments-social"></i>
+                                </a>
+                                <a href="https://www.facebook.com/AdhesiveUnityStickers/" target="_blank">
+                                    <i class="uil uil-facebook-f accomplishments-social"></i>
+                                </a>
+                                <a href="https://www.instagram.com/adhesive.unity/" target="_blank">
+                                    <i class="uil uil-instagram accomplishments-social"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@adhesive_unity?lang=en" target="_blank">
+                                    <svg class="accomplishments-social-tiktok" height="512pt" viewBox="-32 0 512 512"
+                                        width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m432.734375 112.464844c-53.742187 0-97.464844-43.722656-97.464844-97.464844 0-8.285156-6.71875-15-15-15h-80.335937c-8.285156 0-15 6.714844-15 15v329.367188c0 31.59375-25.703125 57.296874-57.300782 57.296874-31.59375 0-57.296874-25.703124-57.296874-57.296874 0-31.597657 25.703124-57.300782 57.296874-57.300782 8.285157 0 15-6.714844 15-15v-80.335937c0-8.28125-6.714843-15-15-15-92.433593 0-167.632812 75.203125-167.632812 167.636719 0 92.433593 75.199219 167.632812 167.632812 167.632812 92.433594 0 167.636719-75.199219 167.636719-167.632812v-145.792969c29.855469 15.917969 63.074219 24.226562 97.464844 24.226562 8.285156 0 15-6.714843 15-15v-80.335937c0-8.28125-6.714844-15-15-15zm-15 79.714844c-32.023437-2.664063-62.433594-13.851563-88.707031-32.75-4.566406-3.289063-10.589844-3.742188-15.601563-1.171876-5.007812 2.5625-8.15625 7.71875-8.15625 13.347657v172.761719c0 75.890624-61.746093 137.632812-137.636719 137.632812-75.890624 0-137.632812-61.742188-137.632812-137.632812 0-70.824219 53.773438-129.328126 122.632812-136.824219v50.8125c-41.015624 7.132812-72.296874 42.984375-72.296874 86.011719 0 48.136718 39.160156 87.300781 87.296874 87.300781 48.140626 0 87.300782-39.164063 87.300782-87.300781v-314.367188h51.210937c6.871094 58.320312 53.269531 104.71875 111.589844 111.589844zm0 0" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accomplishments 04 -->
+                <div class="accomplishments-content">
+                    <div>
+                        <i class="uil uil-award accomplishments-icon"></i>
+                        <h3 class="accomplishments-title">Javascript <br> Ceritifcate</h3>
+                    </div>
+                    <a href="https://www.sololearn.com/certificates/course/en/20563266/1024/landscape/png"
+                        target="_blank" class="button button-flex button-small button-link accomplishments-link">
+                        View More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
+                </div>
+
+                <!-- Accomplishments 05 -->
+                <div class="accomplishments-content">
+                    <div>
+                        <i class="uil uil-award accomplishments-icon"></i>
+                        <h3 class="accomplishments-title">React + Redux <br> Ceritifcate</h3>
+                    </div>
+                    <a href="https://www.sololearn.com/Certificate/1097-20563266/jpg" target="_blank"
+                        class="button button-flex button-small button-link accomplishments-link">
+                        View More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid">
+                <div>
+                    <div class="contact-information">
+                        <i class="uil uil-phone-alt contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Call Me</h3>
+                            <span class="contact-subtitle">925-726-6403</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-envelope contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">jgonzalez34@mail.sfsu.edu</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-map-pin contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">Pittsburg, CA</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true"
+                    class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label class="contact-label">Name</label>
+                            <input type="text" class="contact-input" name="name">
+                        </div>
+                        <div class="contact-content">
+                            <label class="contact-label">Company</label>
+                            <input type="text" class="contact-input" name="company">
+                        </div>
+                    </div>
+                    <div class="contact-content">
+                        <label class="contact-label">Email</label>
+                        <input type="text" class="contact-input" name="email">
+                    </div>
+                    <div class="contact-content">
+                        <label class="contact-label">Message</label>
+                        <textarea type="text" cols="0" rows="4" class="contact-input" name="message"></textarea>
+                    </div>
+                    <div data-netlify-recaptcha="true"></div>
+                    <div>
+                        <a class="button button-flex" type="submit">
+                            Send Message
+                            <i class="uil uil-message button-icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div>
+                    <h1 class="footer-title">Jose</h1>
+                    <span class="footer-subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#about" class="footer-link">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/hilariooo/" target="_blank" class="footer-social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/Hilarioo/" target="_blank" class="footer-social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://dribbble.com/Hilarioo/" target="_blank" class="footer-social">
+                        <i class="uil uil-dribbble"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; Hilarioo | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scroll-up" id="scroll-up">
+        <i class="uil uil-arrow-up scroll-up-icon"></i>
+    </a>
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
