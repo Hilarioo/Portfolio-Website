@@ -1,8 +1,8 @@
-# Mobile First | Responsive Portfolio Website v2.0
+# Mobile First | Responsive Portfolio Website
 
 [https://hilario.io](https://hilario.io)
 
-Responsive portfolio website created with Context API, ReactJS, Typescript, and Vite.
+Responsive portfolio website created with HTML5, CSS, and Vanilla Javascript.
 
 I created the website with a Mobile-First Approach since more people surf the web on their mobile devices than on desktops. The website dynamically changes, allowing the design and content to resize accordingly.
 
