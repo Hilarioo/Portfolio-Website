@@ -21,7 +21,7 @@ const Contact: FC = () => {
 						<div>
 							<h3 className='contact-title'>Email</h3>
 							<span className='contact-subtitle'>
-								jgonzalez34@mail.sfsu.edu
+								gonzalezhilariojose@gmail.com
 							</span>
 						</div>
 					</div>
