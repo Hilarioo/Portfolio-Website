@@ -1,5 +1,5 @@
 import Selfie from '../assets/img/selfie.jpg';
-import Resume from '../assets/pdf/Jose_Gonzalez_Software_Engineer_2023.pdf';
+import Resume from '../assets/pdf/Jose_Gonzalez_Martinez_Resume_2024';
 
 const AboutMe = () => {
 	return (
