@@ -1,5 +1,5 @@
 import Selfie from '../assets/img/selfie.jpg';
-import Resume from '../assets/pdf/Jose_Gonzalez_Martinez_Resume_2024';
+import Resume from '../assets/pdf/Jose_Gonzalez_Martinez_Resume_2024.pdf';
 
 const AboutMe = () => {
 	return (
